@@ -1,7 +1,7 @@
-
-def forca(erros) :
+def forca(erros,nome,vit,der) :
 
     if erros == 0 :
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -13,6 +13,7 @@ def forca(erros) :
         print ()
 
     elif erros == 1 :
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -24,6 +25,7 @@ def forca(erros) :
         print ()
 
     elif erros == 2 :
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -35,6 +37,7 @@ def forca(erros) :
         print ()
 
     elif erros == 3:
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -46,6 +49,7 @@ def forca(erros) :
         print ()
 
     elif erros == 4:
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -57,6 +61,7 @@ def forca(erros) :
         print ()
 
     elif erros == 5:
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
@@ -68,6 +73,7 @@ def forca(erros) :
         print ()
 
     elif erros == 6 :
+        print('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format(nome,vit,der,vit+der))
         print ()
         print ("|----- ")
         print ("|    | ")
