@@ -88,9 +88,10 @@ while newgame == 1: # Menu Principal
                     break
 
                 #captura a letra do usuario
-                print ('2 - Sair')
+                print ('2 - Desistir')
                 letraDig=input('Informe uma letra:')
                 if letraDig == '2':
+                    der+=1
                     break
 
                 #verifica se acertou alguma letra
