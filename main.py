@@ -24,7 +24,10 @@ while newgame == 1: # Menu Principal
                 word=input('\nInforme a palavra: ');
                 temp=[]
                 for letra in word:
-                 temp.append('_')
+                 if letra == ' ':
+                    temp.append (' ')
+                 else:
+                    temp.append('_')
                 #Permite o usuário escolher uma categoria.
             elif modo == 2:
                 print('1 - Animais\n2 - Filmes')
