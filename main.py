@@ -137,11 +137,21 @@ while newgame == 1: # Menu Principal
                    if vit > bestscore :
                        bestscore = vit
                        bestname = nome
+                       recordename = open('recordename.txt','wt')
+                       recordename.write(bestname)
+                       recordename.close()
+                       recorde = open('recordescore.txt','wt')
+                       recorde.write(str(bestscore))
+                       recorde.close()
 
+                   recordename1 = open('recordename.txt','rt')
+                   recorde1 = open('recordescore.txt','rt')
                    print ('\n' * 20)  # limpa a tela
                    print ('Jogador: {} | Vitórias: {} | Derrotas: {} | Partidas: {}'.format (nome, vit, der, vit + der))
-                   print ('Recorde: Nome: {} | Vitórias: {}'.format(bestname,bestscore))
+                   print ('Recorde: Nome: {} | Vitórias: {}'.format(recordename1.read(),recorde1.read()))
                    forca (erros, nome, vit, der)  # imprime desenho da forca
+                   recorde1.close()
+                   recordename1.close()
 
                    # imprime a adivinhacao
                    print ('\n\nAdivinhe: ', end='')
